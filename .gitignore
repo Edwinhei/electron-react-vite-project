@@ -26,5 +26,5 @@ dist-ssr
 # 忽略 assets 文件夹内的所有内容
 assets/*
 
-# 但是不忽略 .gitkeep 文件，以便 Git 跟踪 assets 文件夹本身
-!assets/.gitkeepgit
+# 允许 .gitkeep 文件被追踪，以确保 assets 目录本身被保留
+!/assets/.gitkeep
